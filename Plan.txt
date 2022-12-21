@@ -1,0 +1,21 @@
+- Nav déroulant OK 
+
+- Première page de présentation
+    + Mini description
+    + Background image 
+    + Lien vers la section de dessous
+
+- Deuxième partie technos
+    + Enumération des technos maitrisées avec logos
+    + Organiser par thèmes de technos 
+
+- Troisième partie projets
+    + Présentation de projets (Lehook, jazeyo, immo, Omega)
+    + Lien GitHub
+
+- Quatrième partie 
+    + Contact (Mes coordonnées: mail, tél...)
+    + Lien réseaux (LinkedIn, GitHub)
+    + Télécharger le CV (PDF)
+
+    => Bonus: Faire une animation scroll spy pour remonter au début de la page. (Ex: Fusée...)

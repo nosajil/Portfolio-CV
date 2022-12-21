@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from 'react'
+import { Link } from 'react-router-dom';
 import '../sass/Navbar.scss'
 
 const Navbar = () => {
@@ -30,18 +31,22 @@ const Navbar = () => {
     }, [])
 
   return (
-            <nav>
-                {(toggleMenu || largeur > 575) && (
-
-                    <ul className='liste'>
-                        <li className="items">Accueil</li>
-                        <li className="items">Mes projets</li>
-                        <li className="items">Contact</li>
-                    </ul>
-                )}
-                <button onClick={toggleNavSmallScreen} className='btn'>BTN</button>
-            </nav>
+            <div className="nav-wrapper ">
+                <nav className='container '>
+                    <div className="logo">JL</div>
+                    {(toggleMenu || largeur > 575) && (
+                        <ul className='liste App-navigation'>
+                            <li className='items'
+                            >Mes projets</li>
+                            <li className="items">A propos</li>
+                            <li className="items">Contact</li>
+                        </ul>
+                    )}
+                    <button onClick={toggleNavSmallScreen} className='btn'><i class="fa-solid fa-bars"></i></button>
+                </nav>
+            </div>
   )
 }
+
 
 export default Navbar

@@ -1,0 +1,42 @@
+.presentation-wrapper {
+    position: relative;
+    z-index: 2;
+    background-color: #f1f1f1a1;
+    display: flex;
+    width: 80vw;
+    margin: 0 auto;
+
+    .my-photo {
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aboutme {
+        width: 60%;
+        text-align: end;
+    }
+    img{
+        border-radius: 50%;
+        border: solid #F1F1F1 5px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .presentation-wrapper {
+        flex-direction: column;
+        padding-top: 5vh;
+
+        .my-photo {
+            width: 100%;
+        }
+
+        .aboutme {
+            width: 90%;
+            margin: 0 auto;
+            text-align: end;
+            padding-bottom: 5vh;
+        }
+    }
+}
