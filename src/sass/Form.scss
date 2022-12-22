@@ -10,11 +10,20 @@
 
         input, textarea, button {
             margin: 0.3rem 0 1rem 0;
-            padding: .3rem
+            padding: .3rem;
+            border: solid black 2px;
+
         }
 
         button{
             font-size: 1rem;
+        }
+
+        .btn-send {
+            background-color: rgb(149, 125, 241);
+            border: solid black 2px;
+            color: #F1F1F1;
+            cursor: pointer;
         }
 
     }

@@ -7,16 +7,16 @@ function Form() {
         <form className='contact-form' name="contact" method="post" data-netlify="true" onSubmit="submit">
           
             <input type="hidden" name="form-name" value="contact" />
-            <label for="name">Nom:</label>
+            <label for="name">Nom</label>
             <input type="text" name="name" required/>
               
-            <label for="email">Email:</label>
+            <label for="email">Email</label>
             <input type="email" name="email" required/>
              
-            <label for="message">Message:</label>
+            <label for="message">Message</label>
             <textarea name="message" required></textarea>
          
-            <button type="submit">Envoyer</button>
+            <button className='btn-send' type="submit">Envoyer</button>
         </form>
     </div>
   )

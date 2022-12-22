@@ -2,9 +2,17 @@
     margin: 20vh 0;
     display: flex;
     justify-content: space-evenly;
+    
 
     .form-wrapper{
         flex-basis: 40%;
+    }
+}
+
+.contact-form {
+    label {
+        background: #f1f1f134;
+        width: fit-content;
     }
 }
 
@@ -19,8 +27,27 @@
         display: flex;
         justify-content: space-evenly;
 
+        
+
         .icon {
             padding: 0 2rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            width: 10%;
+            cursor: pointer;
+
+            h4 {
+                margin: 0;
+                padding: 10px 0;
+
+            }
+
+            i{
+                font-size: 2rem;
+                padding: 10px 0;
+            }
         }
     }
 
@@ -33,5 +60,18 @@
         background-color: #f1f1f134;
         width: fit-content;
         
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .contact-wrapper{
+        flex-direction: column;
+        margin: 10vh 0;
+        
+    
+        .form-wrapper{
+            flex-basis: 40%;
+        }
     }
 }
