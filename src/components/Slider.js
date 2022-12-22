@@ -18,7 +18,7 @@ const Slider = () => {
                     <p className="overlay-text">
                         {slide.text}
                     </p>
-                    <a target="_blank" href={slide.url}>Voir ici</a>
+                    <a href={slide.url}>Voir ici</a>
                 </div>
             </div>
         )
