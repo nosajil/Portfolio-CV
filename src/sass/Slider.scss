@@ -43,7 +43,7 @@
     .overlay {
         width: 80%;
         position: absolute;
-        top: 50%;
+        top: 40%;
         bottom: 20%;
         transform: translateY(-50);
         left: 10%;
@@ -55,6 +55,24 @@
 
     .overlay-title{
         margin: 0.8rem 0 1rem 0;
+    }
+
+}
+
+@media screen and (min-width:768px) and (max-width:992px)  {
+    .carousel{
+        .overlay {
+            width: 80%;
+            position: absolute;
+            top: 20%;
+            bottom: 20%;
+            transform: translateY(-50);
+            left: 10%;
+            padding: 0.4rem 1.5rem;
+            text-align: left;
+            background-color: rgba($color: #000000, $alpha: 0.9);
+            color: #F1F1F1;
+        }
     }
 
 }
@@ -81,5 +99,30 @@
     }
 }
    
+.slide {
+    a{
+        position: absolute;
+        bottom: 2vh;
+        font-size: 1rem;
+        background-color: #f1f1f16a;
+        padding: 3px 15px;            
+        border-radius: 20px;
+        color: #000000;
+        text-decoration: none;
+        
+        
+    }
+    p{
+        position: absolute;
+        bottom: 5vh;
+    }
+    h2{
+        position: absolute;
+        top: 2vh;
+        font-size: 1.5rem;
+    }
 }
+}
+
+
 // 
