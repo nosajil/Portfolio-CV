@@ -6,7 +6,7 @@ const Presentation = () => {
     <div>
         <div className="presentation-wrapper">
             <div className="my-photo">
-                <img src={`${process.env.PUBLIC_URL}/img/my-photo2.png`} alt="presentation-en-code" />
+                <img src={`${process.env.PUBLIC_URL}/img/my-photo.png`} alt="presentation-en-code" />
             </div>
             <div className="aboutme">
                 <h2>Développeur Web & Web Mobile</h2>

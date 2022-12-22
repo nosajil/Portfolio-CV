@@ -1,0 +1,22 @@
+.slider-title{
+    position: relative;
+    text-align: center;
+    padding-bottom: 2vh
+}
+
+.section-slider{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.project-wrapper{
+    background-color: #f1f1f132;
+    position: relative;
+    padding: 2vh 0;
+}
+
+@media screen and (max-width:600px) {
+    .section-slider{
+        width: 100%;
+    }
+}

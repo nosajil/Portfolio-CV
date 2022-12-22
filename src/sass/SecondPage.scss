@@ -3,7 +3,7 @@
     height: fit-content;
     position: relative;
     z-index: 2;
-    margin-top: 10vh;
+    margin: 25vh auto;
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
@@ -40,6 +40,10 @@
             height: 200px;
         }
     }
+
+    .section-skill{
+        display: flex;
+    }
 }
 
 
@@ -50,12 +54,21 @@
         justify-content: flex-start;
         align-items: center;
         height: fit-content;
+
     }
 
-    .skill {
-        display: inline-block;
+    .section-skill{
+
+    }
+
+
+.skill {
         margin-top: 5vh;
-        width: 45%;
+
+        &:first-child{
+            margin-right: 100px;
+        }
+
         img {
             width: 200px;
         }

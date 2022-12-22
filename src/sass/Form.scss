@@ -1,0 +1,21 @@
+.contact {
+    position: relative;
+    max-width: 500px;
+    margin: 0 auto;
+
+    .contact-form{
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+
+        input, textarea, button {
+            margin: 0.3rem 0 1rem 0;
+            padding: .3rem
+        }
+
+        button{
+            font-size: 1rem;
+        }
+
+    }
+}
