@@ -1,0 +1,37 @@
+.contact-wrapper{
+    margin: 20vh 0;
+    display: flex;
+    justify-content: space-evenly;
+
+    .form-wrapper{
+        flex-basis: 40%;
+    }
+}
+
+.contact-info{
+    position: relative;
+    flex-basis: 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+    .icons-reseaux {
+        display: flex;
+        justify-content: space-evenly;
+
+        .icon {
+            padding: 0 2rem;
+        }
+    }
+
+    h2{
+        width: 100%;
+        margin: 5vh auto;
+    }
+
+    h2, .linkedin, .email, .github {
+        background-color: #f1f1f134;
+        width: fit-content;
+        
+    }
+}

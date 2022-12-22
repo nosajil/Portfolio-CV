@@ -1,12 +1,10 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import FirstPage from './components/FirstPage';
 import Navbar from './components/Navbar';
 import Presentation from './components/Presentation';
 import Projets from './components/Projets';
 import SecondPage from './components/SecondPage';
-import Slider from './components/Slider';
 import './sass/App.scss';
-import Form from './components/Form';
+import Contact from './components/Contact';
 
 const App = () => {
   return (
@@ -33,7 +31,7 @@ const App = () => {
           <Presentation />
           <SecondPage />
           <Projets />
-          <Form />
+          <Contact />
         </div>
     </div>
   );
