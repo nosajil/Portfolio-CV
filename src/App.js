@@ -1,5 +1,6 @@
 import FirstPage from './components/FirstPage';
-import Navbar from './components/Navbar';
+// import Navbar from './components/Navbar';
+import Nav from './components/Nav';
 import Presentation from './components/Presentation';
 import Projets from './components/Projets';
 import SecondPage from './components/SecondPage';
@@ -22,7 +23,8 @@ const App = () => {
     //     </div>
     // </BrowserRouter>
     <div className="App">
-        <Navbar />
+        {/* <Navbar /> */}
+        <Nav />
         <div className="body-wrapper">
             <video autoPlay muted loop id="myVideo">
               <source src={`${process.env.PUBLIC_URL}/video/background_video2.mp4`}/>
