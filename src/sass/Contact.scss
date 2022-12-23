@@ -38,6 +38,11 @@
             width: 10%;
             cursor: pointer;
 
+            &:hover i , &:hover h4{
+                color: #C1D2FA;
+                transition: all 0.3s;
+            }
+
             h4 {
                 margin: 0;
                 padding: 10px 0;
