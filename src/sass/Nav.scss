@@ -7,30 +7,41 @@
         
       }
 
+.navbar-logo {
+    padding-left: 10vw;
+    font-family: 'megrim';
+    font-size: 1.5rem;
 
+}
 .navbar {
     position: fixed;
     z-index: 4;
 
     width: 100%;
-    min-height: 75px;
+    min-height: 60px;
     // padding: 1rem;
-    background-color: black;
+    background-color: #f1f1f132;
     color: white;
 
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+    font-weight: 700;
 
 
     .navbar-links {
         display: flex;
+        padding-right: 10vw;
         
 
         .navbar-link{
             color: inherit;
-            padding: 0 0.3rem;
+            padding: 0 0.5rem;
+
+            &:hover {
+                color: rgb(149, 125, 241);
+            }
         }
     }
 
@@ -51,6 +62,7 @@
     height: 40px;
     display: none;
     background-color: transparent;
+    border: none;
 }
 
 @media screen and (max-width: 767px) {

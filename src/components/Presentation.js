@@ -4,7 +4,7 @@ import '../sass/Presentation.scss'
 const Presentation = () => {
   return (
     <div>
-        <div className="presentation-wrapper">
+        <div className="presentation-wrapper" id='description'>
             <div className="my-photo">
                 <img src={`${process.env.PUBLIC_URL}/img/my-photo.png`} alt="presentation-en-code" />
             </div>

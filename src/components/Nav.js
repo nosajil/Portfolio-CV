@@ -1,6 +1,8 @@
 import React from 'react'
 import '../sass/Nav.scss'
 import { useState } from 'react'
+import { HashLink as Link } from 'react-router-hash-link';
+
 
 const Nav = () => {
 
@@ -17,29 +19,29 @@ const Nav = () => {
             <div className="navbar-logo">JL</div>
             <ul className="navbar-links">
                 <li className="navbar-item slideInDown1">
-                    <a href="" className="navbar-link">
+                    <Link to="#accueil" smooth className="navbar-link">
                         Accueil
-                    </a>
+                    </Link>
                 </li>
                 <li className="navbar-item slideInDown2">
-                    <a href="" className="navbar-link">
+                    <Link to="#description" smooth className="navbar-link">
                         A propos
-                    </a>
+                    </Link>
                 </li>
                 <li className="navbar-item slideInDown3">
-                    <a href="" className="navbar-link">
-                        Portfolio
-                    </a>
+                    <Link to='#skills' smooth className="navbar-link">
+                        Compétences
+                    </Link>
                 </li>
                 <li className="navbar-item slideInDown4">
-                    <a href="" className="navbar-link">
+                    <Link to='#projets' smooth className="navbar-link">
                         Projets
-                    </a>
+                    </Link>
                 </li>
                 <li className="navbar-item slideInDown5">
-                    <a href="" className="navbar-link">
+                    <Link to='#contact' smooth  className="navbar-link">
                         Contact
-                    </a>
+                    </Link>
                 </li>
             </ul>
             <button onClick={handleShowLinks} className="navbar-burger">

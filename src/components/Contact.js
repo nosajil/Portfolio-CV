@@ -4,7 +4,7 @@ import '../sass/Contact.scss'
 
 const Contact = () => {
   return (
-    <div className='contact-wrapper'>
+    <div className='contact-wrapper' id='contact'>
         <div className="contact-info">
             <h2>Contactez moi</h2>
             <div className="icons-reseaux">
