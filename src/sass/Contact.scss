@@ -109,9 +109,25 @@
 
 
 @media screen and (max-width: 767px) {
-    .contact-wrapper{
+    .contact-page_wrapper {
+        display: flex;
         flex-direction: column;
         margin: 10vh 0;
+
+        .contact-info {
+            display: flex;
+            align-items: center;
+            width: 80vw;
+            margin: 0 auto;
+
+            .search {
+                width: 100%;
+            }
+        }
+    }
+    .contact-wrapper{
+        flex-direction: column;
+        margin: 5vh 0;
         
     
         .form-wrapper{
