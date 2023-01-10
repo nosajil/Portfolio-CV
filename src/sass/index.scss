@@ -12,29 +12,15 @@ code {
     monospace;
 }
 
-html, body {
-    
-  padding
-  : 0;
+  html, body {
+    padding: 0;
   }
+
   .background {
-    
-  position
-  :
-   fixed
-  ;
-    
-  display
-  :
-   block
-  ;
-    
-  top
-  : 0;
-    
-  left
-  : 0;
-    
-  z-index
-  : 0;
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 0;
   }

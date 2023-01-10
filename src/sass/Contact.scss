@@ -1,7 +1,12 @@
-.contact-wrapper{
-    margin: 20vh 0;
+.contact-page_wrapper {
     display: flex;
+    margin: 20vh 0;
     justify-content: space-evenly;
+}
+
+.contact-wrapper{
+    display: flex;
+    flex-direction: column;
     
 
     .form-wrapper{
@@ -11,7 +16,7 @@
 
 .contact-form {
     label {
-        background: #f1f1f134;
+        // background: #f1f1f134;
         width: fit-content;
     }
 }
@@ -22,11 +27,43 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+
+    .search {
+        color: #FFF;
+        width: 40vw;
+
+        .style-date {
+            font-style: italic;
+            font-weight: 600;
+            color: #C1D2FA;
+        }
+    }
+
+    .pos-btn {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .btn-cv {
+        background-color: #C1D2FA;
+        border: solid black 2px;
+        color: black;
+        font-weight: bold;
+        cursor: pointer;
+        padding: 10px 20px;
+        margin-top: 30px;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #8ca2d6fd;
+            transition: all 0.3s;
+        }
+    }
     
     .icons-reseaux {
         display: flex;
         justify-content: space-evenly;
-
         
 
         .icon {
@@ -62,11 +99,13 @@
     }
 
     h2, .linkedin, .email, .github {
-        background-color: #f1f1f134;
+        // background-color: #f1f1f134;
         width: fit-content;
+        color: #FFF;
         
     }
 }
+
 
 
 @media screen and (max-width: 767px) {
