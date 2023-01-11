@@ -64,12 +64,17 @@
     .icons-reseaux {
         display: flex;
         justify-content: space-evenly;
+
+        a {
+            text-decoration: none;
+        }
         
 
         .icon {
             padding: 0 2rem;
             display: flex;
             justify-content: center;
+            text-align: center;
             align-items: center;
             flex-direction: column;
             width: 10%;
@@ -108,7 +113,7 @@
 
 
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 900px) {
     .contact-page_wrapper {
         display: flex;
         flex-direction: column;
@@ -122,6 +127,11 @@
 
             .search {
                 width: 100%;
+            }
+
+            .icons-reseaux {
+                width: 80vw;
+
             }
         }
     }
