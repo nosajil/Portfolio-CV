@@ -5,6 +5,17 @@
     left: 0;
     bottom: 0;
     z-index: 0;
+}
+
+@keyframes slidein {
+    from {
+      /* pushes the sun down past the viewport */
+      transform: translateX(-7vh);
+    }
+    to {
+      /* returns the sun to its default position */
+      transform: translateX(-2vh);
+    }
   }
 
 .firstpage-wrapper {
@@ -50,12 +61,15 @@
         bottom: 10px;
         font-size: 2.5rem;
         cursor: pointer;
-        color: #957df1;
         float: left;
         animation: backwards;
+        z-index: 1;
+        animation: 1.5s linear 1s infinite alternate slidein;
+        rotate: z 90deg;
 
         a {
             text-decoration: none;
+            color: #FFF;
         }
     }
 

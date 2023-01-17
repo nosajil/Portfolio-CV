@@ -54,10 +54,11 @@
         padding: 10px 20px;
         margin-top: 30px;
         cursor: pointer;
+        text-decoration: none;
 
         &:hover {
             background-color: #8ca2d6fd;
-            transition: all 0.3s;
+            transition: all 0.2s;
         }
     }
     

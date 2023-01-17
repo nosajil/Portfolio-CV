@@ -1,5 +1,6 @@
 import Particles from 'particlesjs';
 import React from 'react'
+import ScrollspyNav from 'react-scrollspy-nav';
 import '../sass/FirstPage.scss'
 
 const FirstPage = () => {
@@ -10,7 +11,6 @@ const FirstPage = () => {
         maxParticles: 10000,
         connectParticules: true,
     
-        // color: ['#1B1464', '#404B69', '#5758BB'],
         color: ['#ffffff', '#898a8d', '#5758BB'],
         responsive: [{
           breakpoint: 768,
@@ -36,9 +36,20 @@ const FirstPage = () => {
             <div className="image-code">
                 <img src={`${process.env.PUBLIC_URL}/img/presentation-coding.png`} alt="presentation-en-code" />
             </div>
+            
             <div className="icon-down">
-                <a href="#description"><i class="fa-solid fa-chevron-down"></i></a>
+            <ScrollspyNav
+                    scrollTargetIds={["description"]}
+                    offset={-100}
+                    activeNavClass="is-active"
+                    scrollDuration="50"
+                    headerBackground="true"
+                    smooth
+                >  
+                <a href="#description"><i class="fa-solid fa-shuttle-space"></i></a>
+            </ScrollspyNav>    
             </div>
+            
         </div>
     </div>
   )

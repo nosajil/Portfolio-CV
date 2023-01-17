@@ -19,8 +19,6 @@
 
     width: 100%;
     min-height: 60px;
-    // padding: 1rem;
-    // background-color: #f1f1f132;
     color: white;
 
     display: flex;
@@ -41,6 +39,8 @@
 
             &:hover {
                 color: #957df1;
+                transition: all 0.2s;
+
             }
         }
     }

@@ -1,12 +1,10 @@
 import React from 'react'
 import Form from '../components/Form';
 import '../sass/Contact.scss'
+import cv from'../files/cv_jason_lequenne.pdf'
+
 
 const Contact = () => {
-
-    // const [email, setEmail] = useState([
-    //     showemail
-    // ]);
 
   return (
     <div className="contact-page_wrapper">
@@ -19,7 +17,7 @@ const Contact = () => {
                     <p>Etant en formation accès sur React.js j'aimerais poursuivre mon apprentissage dans cette techno et appronfondir mes connaissances.</p>
                 </div>
                 <div className="pos-btn">
-                    <button className='btn-cv'>Télécharger le CV en PDF</button>
+                    <a href={cv} target='_blank' rel="noreferrer" className='btn-cv'>Télécharger le CV en PDF</a>
                 </div>
             </div>
         </div>
