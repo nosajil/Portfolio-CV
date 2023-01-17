@@ -27,7 +27,7 @@ const Contact = () => {
             <div className="contact-info">
                 <h2>Contactez moi</h2>
                 <div className="icons-reseaux">
-                    <a className="icon" target='_blank' href="https://www.linkedin.com/in/jason-lequenne-51135b164/">
+                    <a className="icon" target='_blank' rel="noreferrer" href="https://www.linkedin.com/in/jason-lequenne-51135b164/">
                         <div className=" linkedin">
                             <i class="fa-brands fa-linkedin"></i>
                             <h4>Linkedin</h4>
@@ -37,7 +37,7 @@ const Contact = () => {
                             <i class="fa-solid fa-envelope"></i>
                             <h4>Email</h4>
                     </div>
-                    <a className="icon" target='_blank' href='https://github.com/nosajil'>   
+                    <a className="icon" target='_blank' rel="noreferrer" href='https://github.com/nosajil'>   
                         <div className=" github">
                             <i class="fa-brands fa-github"></i>
                             <h4>GitHub</h4>
