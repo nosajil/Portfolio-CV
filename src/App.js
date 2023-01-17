@@ -2,7 +2,7 @@ import FirstPage from './components/FirstPage';
 import Nav from './components/Nav';
 import Presentation from './components/Presentation';
 import Projets from './components/Projets';
-import SecondPage from './components/SecondPage';
+import Competences from './components/competences';
 import './sass/App.scss';
 import Contact from './components/Contact';
 import { BrowserRouter } from 'react-router-dom';
@@ -18,7 +18,7 @@ const App = () => {
               </video>
             <FirstPage />
             <Presentation />
-            <SecondPage />
+            <Competences />
             <Projets />
             <Contact />
           </div>
