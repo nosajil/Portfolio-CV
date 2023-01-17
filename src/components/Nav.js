@@ -12,7 +12,7 @@ const Nav = () => {
         setShowLinks(!showLinks)
     }
 
-    console.log(showLinks);
+    // console.log(showLinks);
 
   return (
     <nav className={`navbar ${showLinks ? "show-nav" : "hide-nav"}`}>

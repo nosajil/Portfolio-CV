@@ -7,27 +7,40 @@
         display: flex;
         flex-direction: column;
         padding: 1rem;
-        color: black;
-            font-weight: bold;
+        color: #FFF;
+        font-weight: bold;
 
         input, textarea, button {
             margin: 0.3rem 0 1rem 0;
             padding: .3rem;
             border: solid black 1px;
-            
+        }
 
+        input, textarea, .btn-send {
+            border-radius: 10px;
+        }
+
+        input, .btn-send  {
+            padding: 10px 20px ;
         }
 
         button{
             font-size: 1rem;
         }
 
+        textarea {
+            min-width: 100%;
+            max-width: 100%;
+            padding: 0;
+        }
+
         .btn-send {
             background-color: #C1D2FA;
             border: solid black 2px;
-            color: black;
+            color: #0b0827;
             font-weight: bold;
             cursor: pointer;
+
 
             &:hover {
                 background-color: #8ca2d6fd;

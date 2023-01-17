@@ -20,7 +20,7 @@
     width: 100%;
     min-height: 60px;
     // padding: 1rem;
-    background-color: #f1f1f132;
+    // background-color: #f1f1f132;
     color: white;
 
     display: flex;
@@ -40,7 +40,7 @@
             padding: 0 0.5rem;
 
             &:hover {
-                color: rgb(149, 125, 241);
+                color: #957df1;
             }
         }
     }
@@ -122,7 +122,7 @@
         height: 3px;
         position: relative;
         border-radius: 3px;
-        background-color: white;
+        background-color: #FFF;
         right: 0.5rem;
         transition: all 0.5s ease-in-out;
     }
@@ -136,6 +136,7 @@
 
     .burger-bar::before {
         transform: translateY(-12px);
+        
     }
 
     .burger-bar::after {

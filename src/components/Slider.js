@@ -22,7 +22,6 @@ const Slider = () => {
                 </div>
             </div>
         )
-        
         )}
     </Carousel>
   )
