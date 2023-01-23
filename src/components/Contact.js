@@ -31,10 +31,10 @@ const Contact = () => {
                             <h4>Linkedin</h4>
                         </div>
                     </a>
-                    <div className='icon email'>
+                    {/* <div className='icon email'>
                             <i class="fa-solid fa-envelope"></i>
                             <h4>Email</h4>
-                    </div>
+                    </div> */}
                     <a className="icon" target='_blank' rel="noreferrer" href='https://github.com/nosajil'>   
                         <div className=" github">
                             <i class="fa-brands fa-github"></i>
@@ -43,7 +43,7 @@ const Contact = () => {
                     </a>
                     <div className="icon github">
                         <i class="fa-solid fa-phone"></i>
-                        <h4>Téléphone</h4>
+                        <h4>0698198324</h4>
                     </div>
                 </div>
             </div>

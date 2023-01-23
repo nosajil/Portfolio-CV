@@ -7,12 +7,14 @@
 .contact-wrapper{
     display: flex;
     flex-direction: column;
+    flex-basis: 45%;
     
 
     .form-wrapper{
         flex-basis: 40%;
     }
 }
+
 
 .contact-form {
     label {
@@ -23,7 +25,7 @@
 
 .contact-info{
     position: relative;
-    flex-basis: 30%;
+    flex-basis: 45%;
     display: flex;
     justify-content: center;
     flex-direction: column;
