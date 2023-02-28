@@ -33,8 +33,8 @@ const SecondPage = () => {
                 <h3>Back-end</h3>
                 <div className="section-skill">
                     <div className="skill">
-                        <h3>SQL</h3> 
-                        <img alt='logo-sql' src={`${process.env.PUBLIC_URL}/img/sql.png`}/> 
+                        <h3>MongoDB</h3> 
+                        <img alt='logo-mongodb' src={`${process.env.PUBLIC_URL}/img/mongodb_logo.png`}/> 
                     </div>
                     <div className="skill">
                         <h3>PHP</h3> 
